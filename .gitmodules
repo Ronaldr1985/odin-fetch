@@ -1,0 +1,3 @@
+[submodule "sysinfo"]
+	path = sysinfo
+	url = https://gitea.ronald1985.uk/ronald1985/odin-sysinfo.git
