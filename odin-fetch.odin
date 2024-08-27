@@ -130,7 +130,7 @@ _main :: proc() {
 			delete(user_details)
 		} else if i == 2 {
 			add_padding(&b, num_spaces-len(line))
-			host_details := fmt.aprint(BOLD_WHITE, "Host:   ", BOLD_BLUE, hostname, NORMAL, sep="")
+			host_details := fmt.aprint(BOLD_WHITE, "Hostname:   ", BOLD_BLUE, hostname, NORMAL, sep="")
 			strings.write_string(&b, host_details)
 			delete(host_details)
 		} else if i == 3 {
